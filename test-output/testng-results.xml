@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="3" failed="3" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-06T11:17:43 IST" name="Suite" finished-at="2025-08-06T11:18:33 IST" duration-ms="50443">
+    <groups>
+    </groups>
+    <test started-at="2025-08-06T11:17:43 IST" name="Test" finished-at="2025-08-06T11:18:33 IST" duration-ms="50443">
+      <class name="tests.TestClass5">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:43 IST" name="setup" finished-at="2025-08-06T11:17:43 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:43 IST" name="testCase1" finished-at="2025-08-06T11:17:43 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:43 IST" name="tearDown" finished-at="2025-08-06T11:17:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:44 IST" name="setup" finished-at="2025-08-06T11:17:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:44 IST" name="testLogin" data-provider="loginData" finished-at="2025-08-06T11:17:44 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass5@71e9ddb4]" started-at="2025-08-06T11:17:44 IST" name="tearDown" finished-at="2025-08-06T11:17:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass5 -->
+      <class name="tests.TestClass3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:43 IST" name="setup" finished-at="2025-08-06T11:17:43 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:43 IST" name="testCase1" finished-at="2025-08-06T11:17:43 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:43 IST" name="tearDown" finished-at="2025-08-06T11:17:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:44 IST" name="setup" finished-at="2025-08-06T11:17:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:44 IST" name="testLogin" data-provider="loginData" finished-at="2025-08-06T11:17:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "config.ConfigReader.getProperty(String)" is null
+at base.BaseClass.initDriver(BaseClass.java:55)
+at base.BaseClass.setup(BaseClass.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass3@5dda768f]" started-at="2025-08-06T11:17:44 IST" name="tearDown" finished-at="2025-08-06T11:17:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass3 -->
+      <class name="tests.TestClass4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:17:43 IST" name="setup" finished-at="2025-08-06T11:17:51 IST" duration-ms="7831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:17:51 IST" name="testCase1" finished-at="2025-08-06T11:17:51 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:17:51 IST" name="tearDown" finished-at="2025-08-06T11:17:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:17:51 IST" name="setup" finished-at="2025-08-06T11:17:56 IST" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:17:56 IST" name="testLogin" data-provider="loginData" finished-at="2025-08-06T11:18:30 IST" duration-ms="34037" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at pages.PageClass1.clickLoginButton(PageClass1.java:81)
+at pages.PageClass1.login(PageClass1.java:97)
+at tests.TestClass4.testLogin(TestClass4.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass4@58a9760d]" started-at="2025-08-06T11:18:30 IST" name="tearDown" finished-at="2025-08-06T11:18:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass4 -->
+      <class name="tests.TestClass1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:17:43 IST" name="setup" finished-at="2025-08-06T11:17:51 IST" duration-ms="8300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:17:51 IST" name="testCase1" finished-at="2025-08-06T11:17:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:17:51 IST" name="tearDown" finished-at="2025-08-06T11:17:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:17:51 IST" name="setup" finished-at="2025-08-06T11:17:58 IST" duration-ms="6117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:17:58 IST" name="testLogin" data-provider="loginData" finished-at="2025-08-06T11:18:33 IST" duration-ms="35525" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at pages.PageClass1.clickLoginButton(PageClass1.java:81)
+at pages.PageClass1.login(PageClass1.java:97)
+at tests.TestClass1.testLogin(TestClass1.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass1@394df057]" started-at="2025-08-06T11:18:33 IST" name="tearDown" finished-at="2025-08-06T11:18:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass1 -->
+      <class name="tests.TestClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:17:43 IST" name="setup" finished-at="2025-08-06T11:17:52 IST" duration-ms="8490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:17:52 IST" name="testCase1" finished-at="2025-08-06T11:17:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:17:52 IST" name="tearDown" finished-at="2025-08-06T11:17:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:17:52 IST" name="setup" finished-at="2025-08-06T11:17:55 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:17:55 IST" name="testLogin" data-provider="loginData" finished-at="2025-08-06T11:18:33 IST" duration-ms="37734" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@src, 'orangehrm-logo.png')]' (tried for 15 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at pages.PageClass1.clickLoginButton(PageClass1.java:81)
+at pages.PageClass1.login(PageClass1.java:97)
+at tests.TestClass2.testLogin(TestClass2.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass2@4961f6af]" started-at="2025-08-06T11:18:33 IST" name="tearDown" finished-at="2025-08-06T11:18:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
